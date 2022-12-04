@@ -1539,7 +1539,7 @@
                     this.$slides = [];
                     this.img = document.createElement("img");
                     this.preloadTimeout = null;
-                    if ("CARRD_DISABLE_DEFER" in window) {
+                    if ("DISABLE_DEFER" in window) {
                         this.defer = false;
                         this.preload = false;
                     }
