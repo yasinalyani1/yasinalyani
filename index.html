@@ -1092,8 +1092,8 @@
                     transform: scale(1);
                     width: 100vw;
                     z-index: 0;
-                    background-image: url("/assets/bg.jpg"),
-                        linear-gradient(45deg, rgba(36, 66, 79, 0.729) 0%, rgba(0, 0, 0, 0.38) 100%), url("assets/images/bg-23b8d2c5.jpg?v=7e2e91b5");
+                    background-image: url(),
+                        linear-gradient(45deg, rgba(36, 66, 79, 0.729) 0%, rgba(0, 0, 0, 0.38) 100%), url();
                     background-size: 512px, cover, cover;
                     background-position: center, 0% 0%, center;
                     background-repeat: repeat, repeat, no-repeat;
@@ -1688,9 +1688,7 @@
                         wait: 2750,
                         transition: { style: "crossfade", speed: 2000, delay: 7000 },
                         images: [
-                            { src: "assets/bg.jpg", position: "center", motion: "down", speed: 2, caption: "Untitled" },
-                            { src: "assets/bg.jpg", position: "center", motion: "right", speed: 2, caption: "Untitled" },
-                            { src: "assets/bg.jpg", position: "center", motion: "left", speed: 2, caption: "Untitled" },
+                            { src: "assets/bg.jpg", position: "center", motion: "down", speed: 2, caption: "Untitled" }
                         ],
                     });
                 })();
